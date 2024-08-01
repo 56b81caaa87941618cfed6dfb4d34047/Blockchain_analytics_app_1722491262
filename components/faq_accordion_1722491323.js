@@ -3,8 +3,8 @@ Vue.component('faq_accordion_1722491323', {
     <div>
       <section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8 bg-white">
         <div class="space-y-3 text-center">
-          <h1 class="text-4xl text-gray-800 font-semibold pt-10">FAQ_TITLE_PLACEHOLDER_TEXT</h1>
-          <p class="text-gray-600 max-w-lg mx-auto text-lg">FAQ_SUBTITLE_PLACEHOLDER_TEXT</p>
+          <h1 class="text-4xl text-gray-800 font-semibold pt-10">Blockchain Data Analytics FAQs</h1>
+          <p class="text-gray-600 max-w-lg mx-auto text-lg">Get answers to common questions about our blockchain data analysis platform</p>
         </div>
         <div class="mt-14 max-w-2xl mx-auto">
           <div v-for="(item, index) in faqs" :key="index" class="space-y-5 mt-5 overflow-hidden border-b border-gray-200 hover:bg-gray-50 cursor-pointer" @click="toggleFaq(index)">
@@ -30,24 +30,24 @@ Vue.component('faq_accordion_1722491323', {
       selectedFaq: null,
       faqs: [
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_1",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_1"
+          q: "What is blockchain data analytics?",
+          a: "Blockchain data analytics involves analyzing the vast amounts of data generated on blockchains to extract insights, identify patterns, and make informed decisions. Our platform provides powerful tools to query, analyze, and visualize on-chain data."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_2",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_2"
+          q: "What blockchains do you support?",
+          a: "We currently support analysis of data from major blockchains like Bitcoin, Ethereum, and their associated Layer 2 solutions. We are actively working on adding support for more blockchains."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_3",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_3"
+          q: "Can I analyze historical blockchain data?",
+          a: "Yes, our platform provides access to full historical blockchain data going back to the genesis block. You can query and analyze data from any point in time."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_4",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_4"
+          q: "What kind of analyses can I perform?",
+          a: "Our platform supports a wide range of analyses including transaction monitoring, address clustering, token tracking, smart contract analysis, and constructing custom data views tailored to your use case."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_5",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_5"
+          q: "Do you offer any integration or API access?",
+          a: "Absolutely. We provide robust APIs and SDKs that allow you to integrate blockchain data and analytics directly into your applications, dashboards and workflows."
         }
       ]
     }
