@@ -1,0 +1,18 @@
+{
+    "id": "particle_component-9d3e19b3-a6bc-41b9-5e07-31953c0ce227",
+    "name": "particle_component",
+    "type": "containerComponent",
+    "metadata": {},
+    "w": 7,
+    "h": 7,
+    "x": "50",
+    "y": "50",
+    "i": "__dropping-elem__",
+    "minW": 3,
+    "maxW": 12,
+    "minH": 1,
+    "moved": false,
+    "static": false,
+    "isDraggable": true,
+    "isResizable": true
+}
